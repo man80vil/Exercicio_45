@@ -5,12 +5,12 @@
 }
 @font-face {
     font-family:"Monotype";
-    src: url(/assets/fonts/monotype-corsiva.ttf);
+    src: url(./assets/fonts/monotype-corsiva.ttf);
 
 }
 @font-face {
     font-family:"Monserrat" ;
-    src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
 header{ 
     padding-top: 18px;
@@ -98,16 +98,16 @@ a{
     align-items: center;
  }
  .cajas__comun--nosotros{
-    background-image: url(/assets/components/intro-sobre-nosotros.webp);
+    background-image: url(./assets/components/intro-sobre-nosotros.webp);
  } 
  .cajas__comun--elaboracion{
-    background-image: url(/assets/components/intro-elaboracion.webp);
+    background-image: url(./assets/components/intro-elaboracion.webp);
  } 
  .cajas__comun--empresas{
-    background-image: url(/assets/components/intro-para-empresas.webp);
+    background-image: url(./assets/components/intro-para-empresas.webp);
  } 
  .cajas__comun--eventos{
-    background-image: url(/assets/components/intro-eventos.webp);
+    background-image: url(./assets/components/intro-eventos.webp);
  } 
  .cajas__img{
     width: 90px;
