@@ -17,9 +17,9 @@ header{
     padding-left: 35px;
     padding-right: 34px;
     background-image: url(assets/piedras-de-santiago-tradicion-ciudad.jpg) ;
-background-position: center;
-background-size:cover ;
-background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
     height: 870px;
 }
 
