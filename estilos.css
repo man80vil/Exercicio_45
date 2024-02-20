@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"Monotype";
+    src: url(/assets/fonts/monotype-corsiva.ttf);
+
+}
+@font-face {
+    font-family:"Monserrat" ;
+    src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+header{ 
+    padding-top: 18px;
+    padding-left: 35px;
+    padding-right: 34px;
+    background-image: url(assets/piedras-de-santiago-tradicion-ciudad.jpg) ;
+background-position: center;
+background-size:cover ;
+background-repeat: no-repeat;
+    height: 870px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logoDorado{
+    margin-left: 0px;
+
+}
+
+ul{
+    display: flex;
+   /* margin-left:900px;*/
+}
+
+li{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+a{ 
+    display: flex;
+    margin-left:30px;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+}
+.texto{
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 514px;
+    height: 600px;
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+}
+.bombon{
+    font-family: "Monotype";
+    font-size: 48px;
+    color:#C19D56 ;
+}
+
+.bot-bombon{
+    width:168px;
+    height:48px;
+    background-color:#C19D56 ;
+    margin-top: 45px;
+    color: white;
+    font-size: 16px;
+    font-family: "Monserrat";
+    border: 0px;
+ }
+
+ .cajas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+ }
+ .cajas__comun{
+    width: 301px;
+    height: 379px;
+    box-shadow: 10px 10px 15px 3px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .cajas__comun--nosotros{
+    background-image: url(/assets/components/intro-sobre-nosotros.webp);
+ } 
+ .cajas__comun--elaboracion{
+    background-image: url(/assets/components/intro-elaboracion.webp);
+ } 
+ .cajas__comun--empresas{
+    background-image: url(/assets/components/intro-para-empresas.webp);
+ } 
+ .cajas__comun--eventos{
+    background-image: url(/assets/components/intro-eventos.webp);
+ } 
+ .cajas__img{
+    width: 90px;
+
+ }
+ .cajas__h4{
+        font-family: "Monotype";
+        font-size:26px;
+        color:white ;
+        font-weight: 400;
+        padding-top: 33px;
+ }
+ footer{
+    background-color:rgb(0, 0, 0) ;
+    height: 99px;
+    display: flex;
+    align-items: center;
+ }
+ .p__copyright{
+     color:#C19D56;
+     margin-left: 35px;
+     font-family: "Monserrat";
+ }
+
+
